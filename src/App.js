@@ -3,6 +3,9 @@ import logo from './logo.svg';
 import './App.css';
 import NavBar from './Components/NavBar'
 import SearchComponent from './Components/SearchComponent'
+import SearchButton from './Components/SearchButton'
+import Table from './Components/Table'
+
 
 class App extends Component {
   render() {
@@ -15,6 +18,8 @@ class App extends Component {
 
           <NavBar/>
           <SearchComponent/>
+          <SearchButton/>
+          <Table/>
       </div>
     );
   }

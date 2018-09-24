@@ -5,6 +5,7 @@ import { withStyles } from '@material-ui/core/styles';
 import MenuItem from '@material-ui/core/MenuItem';
 import TextField from '@material-ui/core/TextField';
 
+
 const styles = theme => ({
   container: {
     display: 'flex',
@@ -24,7 +25,7 @@ const styles = theme => ({
 
 class OutlinedTextFields extends React.Component {
   state = {
-    name: 'Cat in the Hat',
+    name: 'Search',
     age: '',
     multiline: 'Controlled',
     currency: 'EUR',
@@ -43,7 +44,7 @@ class OutlinedTextFields extends React.Component {
       <form className={classes.container} noValidate autoComplete="off">
         <TextField
           id="outlined-name"
-          label="Name"
+          label="Search for a Repo"
           className={classes.textField}
           value={this.state.name}
           onChange={this.handleChange('name')}

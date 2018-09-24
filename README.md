@@ -1,3 +1,10 @@
+Hey Shopify!
+
+Here is my web project! In short, to run in it, just install node and run npm start and you should be good!
+
+I'll keep updating it until I see you guys pull it! Thanks!
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
 
 Below you will find some information on how to perform common tasks.<br>
